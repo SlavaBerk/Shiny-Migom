@@ -457,9 +457,6 @@ input, label{
 
 .adv__item{
 	width: 33%;
-}
-
-.adv__list{
 	position: relative;
 }
 
@@ -487,28 +484,28 @@ input, label{
 
 .adv__line1{
 	position: absolute;
-	top: 63px;
+	top: 78px;
 	left: 350px;
 	z-index: 1;
 }
 
 .adv__line2{
 	position: absolute;
-	bottom: 0;
+	bottom: 16px;
 	left: 350px;
 	z-index: 1;
 }
 
 .adv__line3{
 	position: absolute;
-	top: 63px;
+	top: 78px;
 	right: 310px;
 	z-index: 1;
 }
 
 .adv__line4{
 	position: absolute;
-	bottom: 0;
+	bottom: 18px;
 	right: 310px;
 	z-index: 1;
 }
@@ -965,3 +962,5 @@ input, label{
 	text-align: center;
 	padding: 10px 0;
 }
+
+/*начать делать адаптив*/
