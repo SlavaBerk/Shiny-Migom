@@ -73,6 +73,7 @@ ul{
 /*Nav -------------------------*/
 
 .nav{
+	display: flex;
 	font-size: 16px;
 }
 
@@ -961,4 +962,54 @@ input, label{
 	color: #fff;
 	text-align: center;
 	padding: 10px 0;
+}
+
+
+/*Media ------------------------*/
+
+@media (max-width: 1200px){
+	.container{
+		width: 1140px;
+	}
+}
+
+@media (max-width: 1199px){
+	.container{
+		width: 960px;
+	}
+	.header__phone{
+		width: 100%;
+	}
+	.header__btn{
+		text-align: center;
+	}
+	.fix__title:after{
+		top: 140px;
+	}
+	.legal__pic{
+		width: 500px;
+	}
+	.legal__btn{
+		margin-bottom: 15px;
+	}
+	.adv__line1, .adv__line2{
+		left: 317px;
+	}
+	.adv__line3, .adv__line4{
+		right: 277px;
+	}
+	.adv__point--second{
+		padding: 35px 20px;
+	}
+	.phone__right{
+		top: 45px;
+		width: 220px;
+	}
+	.phone__left{
+		width: 220px;
+		bottom: 45px;
+	}
+	.reviews__item img{
+		width: 470px;
+	}
 }
